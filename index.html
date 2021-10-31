@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Php PDO Js</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Php PDO Js</h1>
+
+    <h2>Student List</h2>
+    <h3>JSON Object raw</h3>
+    <div id="raw"></div>
+
+    <h3>Student Obj</h3>
+    <div id="student"></div>
+
+    <h3>Student Obj is in Array</h3>
+    <table id="stud_arr">
+    </table>
+
+    <h2>Search using javascript JSON</h2>
+    <h3>By Student Name oninput</h3>
+    <input type="text" id="txt_stud_name" placeholder="Student Name">
+    <table id="search_result">
+    </table>
+
+    <h2>Input Student No Form</h2>
+    <h3>Input New Student</h3>
+    <input type="text" name="txt_stud_name" placeholder="Student Name">
+    <input type="email" name="txt_stud_email" placeholder="Student Email">
+    <input type="text" name="txt_stud_address" placeholder="Student Address">
+    <input type="button" id="btn_insert" value="Insert">
+    <div id="message"></div>
+
+    <h2>Display, Edit, Update, Delete Student No Form</h2>
+    <h3>Student List</h3>
+    <table id="display">
+    </table>
+
+    <h3>Student Edit</h3>
+    <div id="stud_edit"></div>
+    <br>
+    <div id="update_message"></div>
+    <div id="delete_message"></div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
